@@ -157,13 +157,7 @@ driver.close()
 
 ## Running Tests
 
-### 1. Baseline Monitoring
-
-Enable the connection monitor to establish baseline metrics:
-- Enable `neo4j_connection_monitor` DAG in the UI
-- Let it run for a few cycles
-
-### 2. Reproduce the Problem
+### 1. Reproduce the Problem
 
 Test the problematic connection pattern:
 - **Disable schedule** for `neo4j_problematic_pattern` (toggle off)
