@@ -1,8 +1,8 @@
 """
 DAGs - you like dags? - you like neo4j? - you like airflow? - you like to reproduce the customer's neo4j connection issues?
 This is a DAG to reproduce the customer's neo4j connection issues.
-It creates a DAG with multiple parallel tasks to simulate the customer's workload.
-It then creates a DAG with multiple parallel tasks to simulate the customer's workload.
+It creates a DAG with multiple parallel tasks to simulate bolt connection leakage.
+It also provides an improved connection pattern to fix the issue.
 """
 
 import os
